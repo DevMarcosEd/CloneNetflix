@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --vermelho: #e50914;
+    --preto: #141414;
+}
+
+body {
+    background: var(--preto);
+    font-family: Helvetica, sans-serif;
+    color: #fff;
+
+}
+
+a {
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 1rem;
+    transition: .3s ease;
+}
+
+a:hover {
+    color: #B3B3B3;
+}
+
+h4 {
+    display: table-cell;
+    vertical-align: bottom;
+    line-height: 1.25vw;
+    font-size: 1.4vw;
+    margin-bottom: 5px;  
+}
+
+h4 i {
+    font-size: 15px;
+    margin-left: 5px;
+}
+/* HEADER */
+
+.topo {
+    display: flex;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: inset 0px 200px 31px -159px rgba(0, 0, 0, 0.635);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: all 0.4s ease;
+    z-index: 1000;
+}
+
+.topo.sticky {
+    padding: 20px 50px;
+    background: #141414;
+  }
+  
+
+#logo {
+    width: 95px;
+    margin-right: 40px;
+}
+
+#clicado {
+    font-weight: bold;
+}
+
+/* Home background-filme*/
+.home {
+    width: 100%;
+}
+
+.carrossel-filmes {
+    position: relative;
+    top: -25px;
+}
+
+.filme-principal {
+    background-image: url(/img/background_CASTLE.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+}
+
+.box-banner {
+    padding: 20px 50px;
+    width: 100%;
+}
+
+.titulo-carrossel {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.titulo img{
+    width: 50%;
+}
+
+.descricao {
+    width: 50%;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* CARROUSSEL*/
+
+.carrossel-filmes {
+    margin: auto 50px;
+}
+
+.box-filme {
+    width: 100%;
+    height: 100%;
+}
+
+.box-filme img {
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* FOOTER */
+.content-links {
+    display: flex;
+    width: 100%;
+    padding: 0px 160px 5px;
+}
+
+.redes-sociais {
+    padding: 0px 160px 5px;
+    margin-top: 80px;
+  
+}
+
+.redes-sociais i {
+    font-size: 20px;
+}
+
+.redes-sociais i:first-child {
+    margin-left: 10px;
+}
+
+.redes-sociais i:not(:first-child) {
+   margin-left: 30px;
+}
+
+.links {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.links a {
+    line-height: 30px;
+    color: #808080;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.links button {
+    margin-top: 15px;
+    padding: 5px;
+    border: 1px solid #808080;
+    background-color: transparent;
+    cursor: pointer;
+    color: #808080;
+}
+
+.links button:hover {
+    color: #fff;
+}
+
+/* Alteração botoes botões carrosel owl*/
+.owl-theme .owl-dots {
+    display: none;
+  }
+
+/* .owl-theme {
+    position: relative !important;
+}
+
+.owl-theme .owl-nav {
+    margin-top: 0px !important;
+  } */
+
+.owl-carousel .owl-nav button.owl-next {
+    color: inherit;
+    font: inherit;
+    position: absolute;
+    font-size: 80px !important;
+    top: 15px;
+    right: 0px;
+    display: none;
+    
+}
+
+/* .owl-carousel .owl-nav button.owl-next:hover {
+    background-color: transparent !important;
+    color: #ececec8b !important;
+} */
+
+.owl-carousel .owl-nav button.owl-prev {
+    color: inherit;
+    font: inherit;
+    position: absolute;
+    font-size: 80px !important;
+    top: 15px;
+    left: 0px;
+    display: none;
+}
+
+/* .owl-carousel .owl-nav button.owl-prev:hover {
+    background-color: transparent !important;
+    color: #ececec8b !important;
+} */
+
+/* .owl-carousel button.owl-dot {
+    color: inherit;
+    font: inherit;
+} */
+/* Fim - Alteração botoes botões carrosel owl*/
+
+
+/* RESPONSIVE */
+
+@media (max-width: 935px) {
+.filme-principal {
+    background-image: url(/img/background_CASTLE.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    max-width: 100%;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+    border: 1px solid red;
+}
+
+.content-links {
+    display: flex;
+    width: 100%;
+    padding: 0px 50px 5px;
+}
+
+.redes-sociais {
+    padding: 0px 50px 5px;
+    margin-top: 80px;
+  
+}
+
+/* .owl-carousel .owl-nav button.owl-next {
+    top: 20px;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    top: 20px;
+} */
+
+h4 i {
+    font-size: 10px;
+    margin-left: 5px;    
+}
+}
+
+@media (max-width: 710px) {
+    .filme-principal {
+        background-image: url(/img/background_CASTLE.jpg);
+        background-repeat: no-repeat;
+        height: 300px;
+        width: 100%;
+        background-size: 100%;
+        display: flex;
+        align-items: center;
+        position: relative;
+        z-index: 0;
+        border: 1px solid blue;
+    }
+
+    .box-banner .titulo{
+        margin-top: 15px;
+    }
+
+    .box-banner .descricao{
+        font-size: 13px;
+        margin-top: 15px;
+    }
+
+    /* .owl-carousel .owl-nav button.owl-next {
+        top: 1px;
+    }
+    
+    .owl-carousel .owl-nav button.owl-prev {
+        top: 1px;
+    } */
+
+    h4 {
+        font-size: 12px;
+    }
+
+    
+}
