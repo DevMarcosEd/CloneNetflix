@@ -1,5 +1,7 @@
 # CloneNetflix
 
+<p>Bootcamp Carrefour Web Developer</p>
+<p>desafio de pojeto, recriando a interface do netflix</p>
 <h4>Tecnologias ultilizadas</h4>
 
 <ul>
