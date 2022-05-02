@@ -1,6 +1,6 @@
 # CloneNetflix
 
-<h1>Tecnologias ultilizadas</h1>
+<h3>Tecnologias ultilizadas</h3>
 <ul>
   <li>HTML</li>
   <li>CSS</li>
