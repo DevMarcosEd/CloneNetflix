@@ -1,10 +1,18 @@
 # CloneNetflix
 
+<p>Bootcamp Carrefour Web Developer</p>
+<p>desafio de pojeto, recriando a interface do netflix</p>
 <h4>Tecnologias ultilizadas</h4>
 
 <ul>
     <li>HTML</li>
     <li>CSS</li>
     <li>JAVASCRIPT</li>
-    <li src="https://owlcarousel2.github.io/OwlCarousel2/">Plug-in jQuery Owl Carousel 2</li>
+    <li>Plug-in jQuery Owl Carousel 2</li>
 </ul>
+
+<p>Obs: O projeto não está 100% responsivo</p>
+
+![netflix1](https://user-images.githubusercontent.com/89467421/166329108-83450690-774e-43b0-8605-554229f52e51.jpg)
+
+![netflix2](https://user-images.githubusercontent.com/89467421/166329109-f5cff4b5-3c28-406c-b7e1-650f0737ad24.jpg)
