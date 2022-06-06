@@ -81,7 +81,7 @@ h4 i {
 }
 
 .filme-principal {
-    background-image: url(/img/background_CASTLE.jpg);
+    background-image: url(img/background_CASTLE.jpg);
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
@@ -238,7 +238,6 @@ h4 i {
 
 @media (max-width: 935px) {
 .filme-principal {
-    background-image: url(/img/background_CASTLE.jpg);
     background-repeat: no-repeat;
     height: 400px;
     max-width: 100%;
@@ -277,7 +276,6 @@ h4 i {
 
 @media (max-width: 710px) {
     .filme-principal {
-        background-image: url(/img/background_CASTLE.jpg);
         background-repeat: no-repeat;
         height: 300px;
         width: 100%;
@@ -286,7 +284,6 @@ h4 i {
         align-items: center;
         position: relative;
         z-index: 0;
-        border: 1px solid blue;
     }
 
     .box-banner .titulo{
